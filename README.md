@@ -1,0 +1,1 @@
+This example demonstrates a common error in Groovy: returning null from a method where a numerical value is expected.  The `myMethod` function will return `null` if either input is null, which can lead to unexpected behavior downstream. The solution uses the Elvis operator to provide a default value.
